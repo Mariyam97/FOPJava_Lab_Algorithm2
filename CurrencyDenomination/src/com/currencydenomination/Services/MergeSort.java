@@ -22,7 +22,7 @@ void merge(int array[], int left, int mid, int right){
     // Merge Temporary Arrays
 
     int i = 0, j = 0; //Initialize index of two sub Array.
-    int k = 0; //Initialize index of merge sub Array
+    int k = left; //Initialize index of merge sub Array
 
     while(i < array1 && j < array2){
         if(leftArray[i] >= rightArray[j]){
